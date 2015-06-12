@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		44CFFE2F1A21144700FBBDE2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CFFE2E1A21144700FBBDE2 /* main.cpp */; };
+		44CFFE371A21147600FBBDE2 /* Item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CFFE351A21147600FBBDE2 /* Item.cpp */; };
+		44CFFE3A1A21167700FBBDE2 /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44CFFE381A21167700FBBDE2 /* List.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		44CFFE2B1A21144700FBBDE2 /* DFox_Exercise5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFox_Exercise5; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CFFE2E1A21144700FBBDE2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		44CFFE351A21147600FBBDE2 /* Item.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Item.cpp; sourceTree = "<group>"; };
+		44CFFE361A21147600FBBDE2 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		44CFFE381A21167700FBBDE2 /* List.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		44CFFE391A21167700FBBDE2 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		44CFFE3B1A21172300FBBDE2 /* Input.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Input.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				44CFFE2E1A21144700FBBDE2 /* main.cpp */,
+				44CFFE351A21147600FBBDE2 /* Item.cpp */,
+				44CFFE361A21147600FBBDE2 /* Item.h */,
+				44CFFE381A21167700FBBDE2 /* List.cpp */,
+				44CFFE391A21167700FBBDE2 /* List.h */,
+				44CFFE3B1A21172300FBBDE2 /* Input.txt */,
 			);
 			path = DFox_Exercise5;
 			sourceTree = "<group>";
@@ -118,6 +130,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CFFE3A1A21167700FBBDE2 /* List.cpp in Sources */,
+				44CFFE371A21147600FBBDE2 /* Item.cpp in Sources */,
 				44CFFE2F1A21144700FBBDE2 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
